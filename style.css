@@ -102,12 +102,12 @@ main{
     flex-direction: column;
     justify-content: flex-start;
 }
-.p_card > .heading{
+.p_card  .heading{
     font-weight: bold;
     font-size: 1.2rem;
     margin-bottom: 0.5em;
 }
-.p_card > p{
+.p_card  p{
     color: #8d8d8d;
 }
 .p_cards{
