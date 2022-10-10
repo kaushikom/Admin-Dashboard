@@ -98,6 +98,9 @@ main{
     border-left: 8px solid #f0b429;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
     min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .p_card > .heading{
     font-weight: bold;
@@ -159,4 +162,27 @@ main{
 }
 .trending{
     margin-top: 1.5em;
+}
+.icons > img{
+    height: 25px;
+}
+img{
+    margin: 0;
+    padding: 0;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    justify-items: flex-end;
+}
+.p_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icons > img:hover{
+    transition: 0.2s ease;
+    cursor: pointer;
+    scale: 1.3;
 }
