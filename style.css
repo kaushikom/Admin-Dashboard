@@ -200,10 +200,28 @@ img{
         width: 100vw;
         display: flex;
         align-items: center;
+        position: relative;
     }
     .secondary > span{
         width: 80%;
         margin: 0 auto;
         line-height: 1.5em;
     }
+    #text{
+        animation-name: animation;
+        animation-duration: 1s;
+    }
+   @keyframes animation{
+    from{
+        position: relative;
+        top: 150px;
+        opacity: 0;
+    }
+    to{
+        position: relative;
+        top: 0px;
+        opacity: 100;
+    }
+   }
+   
 }
