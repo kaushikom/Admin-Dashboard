@@ -212,15 +212,25 @@ img{
         animation-duration: 2s;
     }
    @keyframes animation{
-    from{
+    0% {
         position: relative;
         top: 150px;
         opacity: 0;
     }
-    to{
+    25% {
+        opacity: 0.25;
+        
+    }
+    50% {
+        opacity: 0.50;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
         position: relative;
         top: 0px;
-        opacity: 100;
+        opacity: 1;
     }
    }
    
