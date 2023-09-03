@@ -6,4 +6,4 @@ Additionally, I created a simple error page for anyone who tries to open this on
 
 Feel free to check it out from the link below.  
 
-[Live Link](https://omkaushik71.github.io/Admin-Dashboard/)
+[Live Link](https://kaushikom.github.io/Admin-Dashboard/)
